@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body class="h-100">
+    <div class="d-flex flex-wrap align-items-center h-100">
+        <div class="card w-50 mx-auto p-5 m-5 bg-transparent blur border-3 border-white">
+            <h2 class="text-center text-white mb-5">Login System</h2>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control bg-transparent rounded-5 border-2 border-white text-white"
+                    id="floatingEmail" placeholder="name@example.com">
+                <label for="floatingEmail" class="text-white bg-transparent" id="custom-label">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control bg-transparent rounded-5 border-2 border-white text-white" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword" class="text-white bg-transparent" id="custom-label">Password</label>
+            </div>
+            <button onclick="validateLoginData()" class="btn btn-light mt-4 col-md-3 mx-auto rounded-5 fw-medium">Login</button>
+            <p class="text-center text-white mt-3 mb-0">Don't have an account? <a href="signup.html" class="text-white">Sign up</a></p>
+
+        </div>
+    </div>
+
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>

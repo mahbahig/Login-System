@@ -1,0 +1,25 @@
+body {
+    background-image: url(../Images/login-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.blur {
+    backdrop-filter: blur(10px);
+}
+
+#custom-label {
+    color: black;
+    transition: all 150ms linear;
+}
+
+input.form-control:focus {
+    box-shadow: none;
+    border-color: none;
+    background-color: none;
+}
+
+label#custom-label::after {
+    background-color: transparent !important;
+}
